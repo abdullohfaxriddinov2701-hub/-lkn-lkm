@@ -1,0 +1,232 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 46px 0 ; 
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: gray;
+}
+nav ul li a:hover{
+    color: black;
+    font-weight: 900;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 130px;
+}
+.hero-text{
+    width: 440px;
+}
+.hero-text h1{
+font-weight: 700;
+font-size: 45px;
+line-height: 56px;
+letter-spacing: 0%;
+}
+.hero-text p{
+color: gray;
+font-weight: 300;
+font-size: 19px;
+line-height: 32px;
+letter-spacing: 0%;
+margin: 30px 0;
+}
+.btn{
+color: #458FF6;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 17px 51px;
+background-color: white;
+border: 1.4px solid #458FF6;
+border-radius: 30px;
+transition: 0.5s;
+}
+.btn:hover{
+    background-color: #458FF6;
+    color: white;
+}
+.bbb{
+    background-color: #E5E9F666;
+    border-radius: 30px;
+    width: 350px;
+    height: 350px;
+    text-align: left;
+    padding: 20px 30px;
+    justify-content: space-between;
+ 
+}
+div p{
+font-weight: 300;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0%;
+color: black;
+}
+div h2{
+font-weight: 700;
+font-size: 24px;
+line-height: 56px;
+letter-spacing: 0%;
+color: black;
+}
+.sss{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin-top: 50px;
+}
+.bbb:hover{
+    transition: 0.5s;
+    background-color: #458FF6;
+}
+.buton{
+    color: #458FF6;
+font-weight: 700;
+font-size: 18px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 17px 51px;
+background-color: white;
+border: 1.4px solid #458FF6;
+border-radius: 30px;
+transition: 0.5s;
+display: block;
+margin: 0 auto;
+}
+.buton:hover{
+     background-color: #458FF6;
+    color: white;
+}
+.s{
+    font-size: 88px;
+    text-align: center;
+}
+.sec{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+    justify-content: space-between;
+}
+.heroooo{
+    width: 435px;
+}
+.heroooo h1{
+font-weight: 700;
+font-size: 36px;
+line-height: 56px;
+letter-spacing: 0%;
+margin-bottom: 30px;
+}
+.heroooo p{
+color: gray;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+margin: 30px 0 ;
+}
+.knopka{
+color: #458FF6;
+font-weight: 700;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 17px 51px;
+background-color: white;
+border: 1.4px solid #458FF6;
+border-radius: 30px;
+}
+.knopka:hover{
+    background-color: #458FF6;
+    transition: 0.5s;
+    color: white;
+}
+.article h2{
+    text-align: center;
+    font-size: 36px;
+    margin: 40px 0;
+}
+.article-card{
+    width: 380px;
+    height: 504px;
+    background: rgb(231, 230, 230);
+}
+.article-card div{
+    padding: 42px 30px;
+}
+.article-card p{
+    margin: 30px 0;
+}
+.article-card a{
+    color: #458FF6;
+    font-size: 20px;
+    text-decoration: none;
+}
+.article-card a::after{
+    content: url(./img/Vector.png);
+    margin-left: 15px;
+}
+.article-ota{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.butonni{
+    color: #458FF6;
+font-weight: 700;
+font-size: 17px;
+line-height: 100%;
+letter-spacing: 0%;
+padding: 17px 51px;
+background-color: white;
+border: 1.4px solid #458FF6;
+border-radius: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-left: 500px;
+margin-top: 50px;
+}
+.butonni:hover{
+   background-color: #458FF6;
+    transition: 0.5s;
+    color: white;
+}
+footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding: 159px  0 ;
+    color: rgb(90, 53, 120);
+    margin-top: 20px;
+}
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer p{
+    font-style: 20px;
+    margin-top: 15px;
+}
+footer .container div:first-child{
+    width: 500px;
+}
